@@ -1,0 +1,112 @@
+body{
+    font-family: 'PT Mono', monospace;
+}
+
+section{
+    height: 200px;
+    background-color: white;
+    border: solid rgb(46, 44, 44);
+}
+.firstsection{
+    background-color: rgb(34, 34, 41);
+    height: 100vh;
+    font-size: 40px;
+    color: white;
+}
+.firstsection-text{
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+.firstsection-area{
+    display: flex;
+    height: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+    
+}
+.socials{
+    padding-bottom: 200px;
+}
+.social{
+    margin: 20px;
+}
+.logo{
+    height: 90px;
+    margin: 30px;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(167, 121, 104);
+    border-radius: 25px;
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+    padding-top: 10px;
+}
+.button:hover{
+    background-color: antiquewhite;
+}
+h1{
+    margin: 0px;
+    font-size: 50px;
+}
+h2{
+    font-size: 20px;
+}
+p{
+    font-size: 30px;
+    margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+li{
+    /*width: 200px;*/
+    text-decoration: none;
+}
+.headshort {
+    width: 200px;
+    border-radius: 150px;
+}
+.headshort-container{
+    display: flex;
+    align-content: center;
+}
+.Project-card{
+    width: 300px;
+    height: 200px;
+    box-shadow: 5px 5px 20px;
+}
+.Project-image{
+    width: 300px;
+    border-radius: 125px;
+    margin-top: 25px;
+}
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    height: 500px;
+    background-color: 1px
+}
